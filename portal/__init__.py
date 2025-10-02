@@ -1,0 +1,2 @@
+# Şirket bazlı scraper'lar
+
