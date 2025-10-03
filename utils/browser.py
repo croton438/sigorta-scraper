@@ -24,8 +24,7 @@ def _browser_thread_main():
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
         
-        # Windows subprocess sorununu çöz
-        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+       
         
         print("🔄 Playwright başlatılıyor...")
         _playwright = sync_playwright().start()
